@@ -21,8 +21,7 @@ public class ProductServiceImpl implements IProductService{
 		// TODO Auto-generated method stub
 		Product temp =prodRepo.save(product);
 		return "Product id: "+temp.getProdId()+" is saved successfully!";
-		
-	}
+		}
 
 	@Override
 	public List<Product> getAllProduct() {
